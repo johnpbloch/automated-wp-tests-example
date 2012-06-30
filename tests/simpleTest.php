@@ -1,11 +1,10 @@
 <?php
 
-class jpbSimpleTest extends WP_UnitTestCase {
+class simpleTest extends WP_UnitTestCase {
 	public function testEchoSomething(){
 		ob_start();
 		jpb_echoSomething();
 		$output = ob_get_clean();
-		ob_end_clean();
 		$this->assertEquals('YAWP!',$output);
 	}
 	public function testReturnSomething(){

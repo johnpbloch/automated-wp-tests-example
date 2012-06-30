@@ -5,7 +5,6 @@
 >
 	<testsuites>
 		<testsuite name="All">
-			<directory>./*Test.php</directory>
 		</testsuite>
 	</testsuites>
 </phpunit>
